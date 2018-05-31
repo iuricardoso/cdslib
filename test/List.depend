@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1527552158 source:d:\iuri\dropbox\aulas\ifsc\materiais\engenharia mecatrônica - programação ii\10 pilha, fila e lista\lista\list.c
+	<stdlib.h>
+	<string.h>
+	"list.h"
+
+1527555217 d:\iuri\dropbox\aulas\ifsc\materiais\engenharia mecatrônica - programação ii\10 pilha, fila e lista\lista\list.h
+
+1527555742 source:d:\iuri\dropbox\aulas\ifsc\materiais\engenharia mecatrônica - programação ii\10 pilha, fila e lista\lista\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"list.h"
+
+1527552158 source:d:\iuri\dropbox\aulas\ifsc\materiais\engenharia mecatrônica - programação ii\10 pilha, fila e lista\cdslib\list.c
+	<stdlib.h>
+	<string.h>
+	"list.h"
+
+1527555217 d:\iuri\dropbox\aulas\ifsc\materiais\engenharia mecatrônica - programação ii\10 pilha, fila e lista\cdslib\list.h
+

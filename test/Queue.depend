@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1527712967 source:d:\iuri\dropbox\aulas\ifsc\materiais\engenharia mecatrônica - programação ii\10 pilha, fila e lista\cdslib\queue.c
+	<stdlib.h>
+	<string.h>
+	"queue.h"
+
+1527712959 d:\iuri\dropbox\aulas\ifsc\materiais\engenharia mecatrônica - programação ii\10 pilha, fila e lista\cdslib\queue.h
+
+1527715816 source:d:\iuri\dropbox\aulas\ifsc\materiais\engenharia mecatrônica - programação ii\10 pilha, fila e lista\cdslib\test\test_queue.c
+	<stdio.h>
+	<locale.h>
+	<stdint.h>
+	<ctype.h>
+	<stdlib.h>
+	<time.h>
+	"../src/queue.h"
+
+1527712967 source:d:\iuri\dropbox\aulas\ifsc\materiais\engenharia mecatrônica - programação ii\10 pilha, fila e lista\cdslib\src\queue.c
+	<stdlib.h>
+	<string.h>
+	"queue.h"
+
+1527718334 d:\iuri\dropbox\aulas\ifsc\materiais\engenharia mecatrônica - programação ii\10 pilha, fila e lista\cdslib\src\queue.h
+

@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1524221589 source:c:\temp\pilha\main.c
+	<stdio.h>
+	<locale.h>
+	<stdint.h>
+	<ctype.h>
+	"stack.h"
+
+1524222373 c:\temp\pilha\stack.h
+
+1524221642 source:c:\temp\pilha\stack.c
+	<stdlib.h>
+	<string.h>
+	"stack.h"
+
+1526675508 source:c:\users\iuri.cardoso\downloads\pilha\main.c
+	<stdio.h>
+	<locale.h>
+	<stdint.h>
+	<ctype.h>
+	<stdlib.h>
+	<time.h>
+	"stack.h"
+
+1526674940 c:\users\iuri.cardoso\downloads\pilha\stack.h
+
+1526675091 source:c:\users\iuri.cardoso\downloads\pilha\stack.c
+	<stdlib.h>
+	<string.h>
+	"stack.h"
+
+1526675623 source:d:\iuri\dropbox\aulas\ifsc\materiais\engenharia mecatrônica - programação ii\10 pilha, fila e lista\cdslib\stack.c
+	<stdlib.h>
+	<string.h>
+	"stack.h"
+
+1526675625 d:\iuri\dropbox\aulas\ifsc\materiais\engenharia mecatrônica - programação ii\10 pilha, fila e lista\cdslib\stack.h
+
+1527718687 source:d:\iuri\dropbox\aulas\ifsc\materiais\engenharia mecatrônica - programação ii\10 pilha, fila e lista\cdslib\test\test_stack.c
+	<stdio.h>
+	<locale.h>
+	<stdint.h>
+	<ctype.h>
+	<stdlib.h>
+	<time.h>
+	"../src/stack.h"
+
+1527727229 d:\iuri\dropbox\aulas\ifsc\materiais\engenharia mecatrônica - programação ii\10 pilha, fila e lista\cdslib\src\stack.h
+
+1527718633 source:d:\iuri\dropbox\aulas\ifsc\materiais\engenharia mecatrônica - programação ii\10 pilha, fila e lista\cdslib\src\stack.c
+	<stdlib.h>
+	<string.h>
+	"stack.h"
+
