@@ -6,7 +6,7 @@ todas estáticas (uso de vetores para armazenamento), porém de tamanho dinâmic
 Estas permitem a criação de listas, pilhas e listas de qualquer tipo de dado.
 
 A documentação encontra-se para download em /docs/index.html
-ou então, online em http://docente.ifsc.edu.br/iuri.cardoso/externo/cdslib/
+ou então, online em https://iuricardoso.github.io/cdslib/
 
 Saudadações,
 Iuri Sônego Cardoso, 30/05/2018.
