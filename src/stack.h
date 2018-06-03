@@ -26,8 +26,7 @@ SOFTWARE.
 
 /**
  * @page example_stack Exemplo de uso de Pilha
- *
- * Exemplo de uso: <pre><code>
+ * <pre><code>
  #define CAPACITY 5
 
  //// create a stack of int elements.

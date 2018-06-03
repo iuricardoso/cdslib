@@ -27,7 +27,8 @@ var NAVTREE =
     [ "Página Principal", "index.html", [
       [ "Introdução", "index.html#intro_sec", null ],
       [ "Sumário", "index.html#summary_sec", null ],
-      [ "Instalação", "index.html#install_sec", null ]
+      [ "Instalação", "index.html#install_sec", null ],
+      [ "Licença", "index.html#licence_sec", null ]
     ] ],
     [ "Exemplo de uso de Lista", "example_list.html", null ],
     [ "Exemplo de uso de Fila.", "example_queue.html", null ],

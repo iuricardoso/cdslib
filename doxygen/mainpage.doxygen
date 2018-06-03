@@ -1,0 +1,56 @@
+/** @mainpage P&aacute;gina Principal
+ *
+ * @section intro_sec Introdu&ccedil;&atilde;o
+ *
+ * A ANSI C Data Structutres Library possui um conjunto de defini&ccedil;&otilde;es e fun&ccedil;&otilde;es
+ * de listas, pilhas e filas para uso destas estruturas de dados.
+ *
+ * At&eacute; o presente momento, todas as estruturas existentes na biblioteca s&atilde;o estrutras
+ * est&aacute;ticas, isto &eacute;, trabalham sobre vetores, sem n&oacute;s ligados. Entretanto, estes
+ * vetores s&atilde;o alocados dinamicamente, o que permite tenham tamanhos
+ * definidos na chamada das fun&ccedil;&otilde;es de aloca&ccedil;&atilde;o.
+ *
+ * Estas estruturas de dados tamb&eacute;m permitem armazenar qualquer tipo de dado,
+ * uma vez que trabalham com aloca&ccedil;&atilde;o din&acirc;mica do vetor. Assim, estas estruturas
+ * s&atilde;o gen&eacute;ricas e podem armazenar qualquer tipo de dado, desde os tipos nativos
+ * da Linguagem C, at&eacute; os criados por meio de <code>struct</code>s, entre outros.
+ *
+ * @section summary_sec Sum&aacute;rio
+ * <ol>
+ *  <li><a href="./list_8h.html" target="_self">List - Lista est&aacute;tica com tamanho din&acirc;mico;</a></li>
+ *  <li><a href="./queue_8h.html" target="_self">Queue - Fila est&aacute;tica com tamanho din&acirc;mico;</a></li>
+ *  <li><a href="./stack_8h.html" target="_self">Stack - Pilha est&aacute;tica com tamanho din&acirc;mico.</a></li>
+ * </ol>
+ *
+ * @section install_sec Instala&ccedil;&atilde;o
+ *
+ * Esta documenta&ccedil;&atilde;o est&aacute; dispon&iacute;vel no endere&ccedil;o https://iuricardoso.github.io/cdslib/.
+ *
+ * A biblioteca est&aacute; dispon&iacute;vel para download no endere&ccedil;o https://github.com/iuricardoso/cdslib/. Ela &eacute; livre para ser utilizada em qualquer projeto.
+ *
+ * Para utlizar a biblioteca, fa&ccedil;a o download do arquivo cdslib.zip presente na pasta /zip/ da p&aacute;gina do endere&ccedil;o acima descrito. Extraia o seu conte&uacute;do, depois copie os arquivos extra&iacute;dos para a pasta do projeto, e incluia-os na compila&ccedil;&atilde;o.
+ *
+ * @section licence_sec Licen&ccedil;a
+ *
+ * MIT License
+ * 
+ * Copyright (c) 2018 Iuri Sônego Cardoso. iuricardoso@gmail.com
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */

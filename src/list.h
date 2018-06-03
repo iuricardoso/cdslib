@@ -28,44 +28,44 @@ SOFTWARE.
 /**
  * @page example_list Exemplo de uso de Lista
  * Exemplo de uso:<pre><code>
- #define CAPACITY 5
-
- //// create a list of int elements, limited to 5 elements.
- LIST l = listCreate(CAPACITY, sizeof(int));
- int e;
-
- //// adding 20 at the end of the list.
- e = 10;
- if (listAdd(l, &e) == LIST_IS_FULL) {
-    //// error: list is full.
- }
-
- //// now, adding 10 at first position (position zero).
- e = 20;
- listAddAtPosition(l, &e, 0);
-
- //// finally, adding 30 at the end of the list.
- e = 30;
- listAdd(l, &e);
-
- //// here, the list has 10, 20, 30.
- //// print the size: 3.
- printf("List size: %d\n", listSize(l));
-
- //// remove the second element (20).
- if (listRemoveAtPosition(l, &e, 1) == INVALID_POSITION) {
-    //// error: try to access a invalid position.
- }
- printf("%d", e); // print: 20
-
- //// print: 10 30
- while (listRemoveAtPosition(l, &e, 0) > 0) {
-    printf("%d ", e);
- }
-
- //// don't forget this, to avoid memory leak.
- listFree(l);
- </code></pre>
+ * #define CAPACITY 5
+ *
+ * //// create a list of int elements, limited to 5 elements.
+ * LIST l = listCreate(CAPACITY, sizeof(int));
+ * int e;
+ *
+ * //// adding 20 at the end of the list.
+ * e = 20;
+ * if (listAdd(l, &e) == LIST_IS_FULL) {
+ *    printf("error: list is full.\n");
+ * }
+ *
+ * //// now, adding 10 at first position (position zero).
+ * e = 10;
+ * listAddAtPosition(l, &e, 0);
+ *
+ * //// finally, adding 30 at the end of the list.
+ * e = 30;
+ * listAdd(l, &e);
+ *
+ * //// here, the list has 10, 20, 30.
+ * //// print the size: 3.
+ * printf("List size: %d\n", listSize(l));
+ *
+ * //// remove the second element (20).
+ * if (listRemoveAtPosition(l, &e, 1) == INVALID_POSITION) {
+ *    printf("error: try to access a invalid position.\n");
+ * }
+ * printf("%d", e); // print: 20
+ *
+ * //// print: 10 30
+ * while (listRemoveAtPosition(l, &e, 0) > 0) {
+ *    printf("%d ", e);
+ * }
+ *
+ * //// don't forget this, to avoid memory leak.
+ * listFree(l);
+ * </code></pre>
  */
 
 /**

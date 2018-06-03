@@ -25,35 +25,6 @@ SOFTWARE.
 #ifndef QUEUE_H_INCLUDED
 #define QUEUE_H_INCLUDED
 
-/** @mainpage P&aacute;gina Principal
- *
- * @section intro_sec Introdu&ccedil;&atilde;o
- *
- * A ANSI C Data Structutres Library possui um conjunto de defini&ccedil;&otilde;es e fun&ccedil;&otilde;es
- * de listas, pilhas e filas para uso destas estruturas de dados.
- *
- * At&eacute; o presente momento, todas as estruturas existentes na biblioteca s&atilde;o estrutras
- * est&aacute;ticas, isto &eacute;, trabalham sobre vetores, sem n&oacute;s ligados. Entretanto, estes
- * vetores s&atilde;o alocados dinamicamente, o que permite que sejam alocados com tamanhos
- * definidos na chamada das fun&ccedil;&otilde;es de aloca&ccedil;&atilde;o.
- *
- * Estas estruturas de dados tamb&eacute;m permitem armazenar qualquer tipo de dado,
- * uma vez que trabalham com aloca&ccedil;&atilde;o din&acirc;mica do vetor. Assim, estas estruturas
- * s&atilde;o gen&eacute;ricas e podem armazenar qualquer tipo de dado, desde os tipos nativos
- * da Linguagem C, at&eacute; os criados por meio de <code>struct</code>s, entre outros.
- *
- * @section summary_sec Sum&aacute;rio
- * <ol>
- *  <li><a href="./list_8h.html" target="_self">List - Lista est&aacute;tica com tamanho din&acirc;mico;</a></li>
- *  <li><a href="./queue_8h.html" target="_self">Queue - Fila est&aacute;tica com tamanho din&acirc;mico;</a></li>
- *  <li><a href="./stack_8h.html" target="_self">Stack - Pilha est&aacute;tica com tamanho din&acirc;mico.</a></li>
- * </ol>
- *
- * @section install_sec Instala&ccedil;&atilde;o
- * Para instalar a biblioteca, copie os arquivos dela (.c e .h) para a pasta do
- * projeto, incluindo-os na compila&ccedil;&atilde;o.
- */
-
 /**
  * @page example_queue Exemplo de uso de Fila.
  * <pre><code>
